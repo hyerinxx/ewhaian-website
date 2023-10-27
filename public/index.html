@@ -1,43 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이화이언</title>
+</head>
+<body>
+    <hr id="top"> <!--분홍색 두꺼운 라인-->
+    <header>
+        <a href="http://www.ewhaian.com"><img src="/img/header/logo.png" alt="이화이언"></a>
+        <nav>
+            <ul>
+                <li><a href="http://www.ewhaian.com/WebPage/Ewhaian/main.asp">이화이언</a></li>
+                <li><a href="http://www.ewhaian.com/Ewha_board/Ewha_View.asp?bm_idx=15">컨텐츠</a></li>
+                <li><a href="#">라이프</a></li>
+                <li><a href="#">캠퍼스</a></li>
+                <li><a href="#"><img src="/img/header/5_key-off.png" alt="비밀의 화원"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside id="side-left">
+        <div id="login">
+            <img src="/img/side-left/login/title-LOGIN.gif" alt="LOGIN">
+            <form id="login-form">
+                <span>
+                    <ul>
+                        <li>
+                            <span><input id="user-id" name="user-id" type="text"></span>
+                            <span><input id="remember-id" name="remember-id" type="checkbox"></span> <!--이것도 컴포넌트로 만들 수 있을듯-->
+                        </li>
+                        <li>
+                            <span><input id="user-pw" name="user-pw" type="password"></span>
+                            <span><input id="remember-pw" name="remember-pw" type="checkbox"></span>
+                        </li>
+                    </ul>
+                </span>
+                <span>
+                    <button type="submit" style="background-image: url(/img/side-left/login/submit.gif);"></button>
+                </span>
+            </form>
+            <hr id="login-line"> <!--분홍색 얇은 라인-->
+            <span>
+                <a href="http://www.ewhaian.com/Ewha_Member/member_join.asp">
+                    <img src="/img/side-left/login/join.gif" alt="회원가입">
+                </a>
+            </span>
+            <span>
+                <a href="http://www.ewhaian.com/Ewha_Member/member_find.asp">
+                    <img src="/img/side-left/login/find.gif" alt="아이디/비밀번호 찾기">
+                </a>
+            </span>
+        </div>
+        <div id="ad">
+            <a href="https://intern.talent-hyundai-now.com/?utm_source=careertalk&utm_medium=univ-ewha&utm_campaign=recruit-23-2-hd-nextgen">
+                <img src="/img/side-left/ad/hyundai.jpg" alt="현대자동차 NextGen 인턴십">
+            </a>
+            <a href="#">
+                <img src="/img/side-left/ad/partnership.jpg" alt="제휴이벤트">
+            </a>
+        </div>
+        <a id="error-report" href="http://www.ewhaian.com/ewha_admin/Error_popup.asp?rndid=eB21ynymft" onclick="window.open(this.href, '_blank', 'width=1095, height=880'); return false;">
+            [<span>사이트 오류신고</span>]
+        </a>
+    </aside>
+    <main>
+        <div id="banner-main">
+            <span>
+                <!--배너 전환 구현-->
+            </span>
+            <!--배너 넘기기 컴포넌트로 묶기-->
+            <span id="btn_prev" title="이전 배너 보기"></span>
+            <span id="btn_next" title="다음 배너 보기"></span>
+        </div>
+        <div id="contents">
+            <img src="/img/main/contents/title-CONTENTS.gif" alt="CONTENTS">
+            <!--배너 넘기기 컴포넌트-->
+            <!--이미지 전환-->
+        </div>
+        <div id="board">
+            <img src="/img/main/board/title-BOARD.png" alt="BOARD">
+            <!--작은 컴포넌트 6개 반복-->
+        </div>
+    </main>
+    <aside id="side-right">
+        <div id="notice">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+        </div>
+        <div id="event">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        </div>
+        <div id="banner-sub">
+            <a href="http://www.ewhaian.com/Ewha_Notice/Notice_View.asp?n_idx=188">
+                <img src="/img/side-right/1_certify.png" alt="이화인 인증">
+            </a>
+            <a href="https://www.facebook.com/ewhaian2001">
+                <img src="/img/side-right/2_facebook.jpg" alt="이화이언 페이스북">
+            </a>
+            <a href="https://instagram.com/ewhaian_2001">
+                <img src="/img/side-right/3_instagram.jpg" alt="이화이언 인스타그램">
+            </a>
+            <a href="https://blog.naver.com/ewhaianblog">
+                <img src="/img/side-right/4_blog.jpg" alt="이화이언 블로그">
+            </a>
+            <img src="/img/side-right/5_donate.jpg" alt="이화이언 기부하기">
+        </div>
+    </aside>
+    <footer>
+        <hr id="footer-line"> <!--회색 얇은 라인-->
+        <ul id="utility-link">
+            <li>
+                <a href="http://www.ewhaian.com">HOME</a>
+            </li>
+            <li>
+                <a href="http://www.ewhaian.com/WebPage/Ewhaian/main.asp">이화이언소개</a>
+            </li>
+            <li>
+                <a href="http://www.ewhaian.com/WebPage/Ewhaian/person.asp">개인보호정책</a>
+            </li>
+            <li>
+                <a href="http://www.ewhaian.com/WebPage/Ewhaian/user.asp">게시판이용원칙</a>
+            </li>
+            <li>
+                <a href="http://www.ewhaian.com/WebPage/Ewhaian/user.asp">이용약관</a>
+            </li>
+            <li>
+                <a href="http://www.ewhaian.com/WebPage/Ewhaian/contactus.asp">CONTECT US</a>
+            </li>
+        </ul>
+        <div id="copyright">
+            copyright by Ewhaian.com All rights reserved
+        </div>
+    </footer>
+</body>
 </html>
