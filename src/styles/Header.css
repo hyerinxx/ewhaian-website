@@ -1,0 +1,11 @@
+header {}
+header #top-line {
+    width: 100%; height: 20px;
+}
+header a {}
+header a img {}
+header nav {}
+header nav ul {}
+header nav ul li {}
+header nav ul li a {}
+header nav ul li a img {}
