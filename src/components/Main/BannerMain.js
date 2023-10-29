@@ -1,3 +1,4 @@
+import "./BannerMain.css";
 import SwitchShow from "./SwitchShow";
 import PrevNext from "./PrevNext";
 

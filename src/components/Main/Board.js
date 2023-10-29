@@ -1,3 +1,4 @@
+import "./Board.css";
 import Preview_six from "./Preview_six";
 
 export default function Board() {

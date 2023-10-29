@@ -1,3 +1,5 @@
+import "./Preview_two.css";
+
 export default function Preview_two({title, image, data}) {
     const titleName = title;
     const titleImg = image;

@@ -1,3 +1,4 @@
+import "./SideLeft.css";
 import Login from "./Login/Login";
 
 export default function SideLeft() {
@@ -12,9 +13,7 @@ export default function SideLeft() {
                     <img src="/img/side-left/ad/partnership.jpg" alt="제휴이벤트"></img>
                 </a>
             </div>
-            <a id="error-report" href="http://www.ewhaian.com/ewha_admin/Error_popup.asp?rndid=eB21ynymft" onclick="window.open(this.href, '_blank', 'width=1095, height=880'); return false;">
-                [<span style={{color:"red"}}>사이트 오류신고</span>]
-            </a>
+            <a id="error-report" href="http://www.ewhaian.com/ewha_admin/Error_popup.asp?rndid=eB21ynymft" onclick="window.open(this.href, '_blank', 'width=1095, height=880'); return false;">사이트 오류신고</a>
         </aside>
     );
 }

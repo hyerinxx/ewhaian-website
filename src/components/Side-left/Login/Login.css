@@ -1,0 +1,49 @@
+#login {
+    width: 190px;
+    border: 1px solid deeppink; border-radius: 6px;
+    padding: 10px;
+    text-align: left; vertical-align: middle;
+}
+#login #title {
+    margin-bottom: 10px;
+}
+#login #login-form {
+    display: flex;
+    justify-content: space-between;
+}
+#login #login-form ul {
+    justify-content: space-between;
+}
+#login #login-form ul li {
+    margin-bottom: 4px;
+}
+#login #login-form ul li input {
+    height: 17px;
+}
+#login #login-form ul li input[name*=user] {
+    width: 80px;
+    margin-right: 5px;
+    border: 1px solid gainsboro;
+}
+#login #login-form ul li input[name=user-id] {}
+#login #login-form ul li input[name=remember-id] {}
+#login #login-form ul li input[name=user-pw] {}
+#login #login-form ul li input[name=remember-pw] {}
+#login #login-form input[type=submit] {
+    border: 0;
+    background: url("/public/img/side-left/login/submit.gif") no-repeat;
+    width: 57px; height: 42px;
+    cursor: pointer;
+}
+#login #login-line {
+    background-color: deeppink;
+    height: 0.01rem;
+    border: 0;
+}
+#login #login-menu {
+    display: flex;
+    justify-content: space-between;
+}
+#login #login-menu a {}
+#login #login-menu a img:first-child {}
+#login #login-menu a img:last-child {}

@@ -1,3 +1,4 @@
+import "./SideRight.css";
 import Preview_two from "./Preview_two";
 
 export default function SideRight() {

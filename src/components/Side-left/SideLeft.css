@@ -1,0 +1,26 @@
+#side-left {
+    width: 200px;
+    padding-left: 10px;
+    text-align: center;
+}
+#side-left #ad {
+}
+#side-left #ad a {}
+#side-left #ad a img {
+    margin-top: 5px;
+}
+#side-left #ad a img:first-child{}
+#side-left #ad a img:last-child{}
+#side-left #error-report {
+    color: red;
+    font-weight: bold;
+    font-size: small;
+}
+#side-left #error-report::before {
+    content: "[";
+    color: black;
+}
+#side-left #error-report::after {
+    content: "]";
+    color: black;
+}

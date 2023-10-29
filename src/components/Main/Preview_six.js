@@ -1,3 +1,5 @@
+import "./Preview_six.css";
+
 export default function Preview_six({title, data}) {
     const titleName = title;
     const lastArticle = data;

@@ -1,3 +1,4 @@
+import "./Main.css";
 import BannerMain from "./BannerMain";
 import Contents from "./Contents";
 import Board from "./Board";

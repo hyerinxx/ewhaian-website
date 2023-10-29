@@ -1,3 +1,5 @@
+import "./PrevNext.css";
+
 export default function PrevNext(){
     return(
         <span>

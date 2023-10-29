@@ -1,0 +1,53 @@
+.hidden {
+    display: none;
+}
+
+header {
+    margin-bottom: 20px;
+}
+header #top-line {}
+header span {
+    display: flex;
+}
+header span a {}
+header span a img {}
+header span nav {
+    width: 960px;
+    margin-left: 130px;
+}
+header span nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+header span nav ul li a:hover {
+    color: deeppink;
+}
+header span nav #nav-main li {
+    width: 105px;
+    margin-top: 15px;
+    text-align: right;
+}
+header span nav #nav-main li a {
+    font-weight: bold;
+}
+header span nav #nav-main #top-secret a:hover img {
+    content: url("/public/img/header/5_key-on.png");
+}
+header span nav .nav-sub img {
+    margin-top: 8px;
+}
+header span nav .nav-sub ul {
+    margin-top: 5px;
+}
+header span nav .nav-sub ul li {
+    margin-right: 30px;
+}
+header span nav .nav-sub ul li a {
+    font-size: small;
+}
+header span nav #sub-ewhaian {
+    margin-left: 43px;
+}
+header span nav #sub-contents {
+    margin-left: 163px;
+}

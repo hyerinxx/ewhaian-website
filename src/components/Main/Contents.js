@@ -1,3 +1,4 @@
+import "./Contents.css";
 import PrevNext from "./PrevNext";
 
 export default function Contents() {
