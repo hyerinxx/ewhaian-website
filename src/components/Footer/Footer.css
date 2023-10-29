@@ -1,7 +1,31 @@
-footer {}
-footer #footer-line {}
-footer #utility-link {}
+.text {
+    color: gray;
+    font-size: x-small;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer #footer-line {
+    margin-bottom: 30px;
+}
+footer #utility-link {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
 footer #utility-link li {}
-footer #utility-link li a {}
+footer #utility-link li::after {
+    content: "|";
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer #utility-link li:last-child::after {
+    content: "";
+}
 footer #utility-link li a {}
 footer #copyright {}
