@@ -1,7 +1,8 @@
 #login {
     width: 190px;
-    border: 1px solid deeppink; border-radius: 6px;
     padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid deeppink; border-radius: 6px;
     text-align: left; vertical-align: middle;
 }
 #login #title {

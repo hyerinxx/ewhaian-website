@@ -1,2 +1,26 @@
-main #contents {}
-main #contents img {}
+.hidden {
+    display: none;
+}
+
+#contents {}
+#contents #contents-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#contents #contents-top img {
+    width: 73px; height: 13px;
+}
+#contents #contents-top #contents-btn {
+    margin-right: 7px;
+}
+#contents #contents-image {}
+#contents #contents-image div {}
+#contents #contents-image div img {}
+#contents #contents-image div img:first-child {
+    margin-right: 20px;
+}
+#contents #contents-image #first-page {}
+#contents #contents-image #first-page img {}
+#contents #contents-image #second-page {}
+#contents #contents-image #second-page img {}

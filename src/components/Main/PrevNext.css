@@ -1,0 +1,13 @@
+#prev-next {}
+#prev-next input[type="button"] {
+    width: 13px; height: 13px;
+    border: 0;
+    cursor: pointer;
+}
+#prev-next #prev {
+    background: url("../../../public/img/main/btn/prev.gif") no-repeat;
+    margin-right: 3px;
+}
+#prev-next #next {
+    background: url("../../../public/img/main/btn/next.gif") no-repeat;
+}

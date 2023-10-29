@@ -1,3 +1,19 @@
-main #board .Preview_six {
-    
+.Preview_six {
+    padding-top: 4px; padding-left: 13px;
+    font-weight: bold; font-size: small;
+}
+.Preview_six::before {
+    content: ">";
+    color: deeppink;
+    margin-right: 7px;
+}
+.Preview_six ul {
+    margin-top: 10px;
+}
+.Preview_six ul li {
+    list-style: inside;
+    margin-bottom: 3px;
+}
+.Preview_six ul li a {
+    font-size: small;
 }

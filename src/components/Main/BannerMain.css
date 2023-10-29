@@ -1,1 +1,10 @@
-main #banner-main {}
+#banner-main {
+    width: 580px; height: 131px;
+    background: url("/public/img/main/banner/season-fall.png") no-repeat;
+    background-size: 100%;
+}
+#banner-main #banner-btn {
+    display: flex;
+    justify-content: end;
+    padding-top: 108px; padding-right: 10px;
+}

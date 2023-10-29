@@ -6,7 +6,7 @@ export default function Preview_six({title, data}) {
     return(
         <div className="Preview_six">
             {titleName}
-            <ul> //data에 따른 최신글 리스트
+            <ul>
                 <li><a href="#">글 제목</a></li>
                 <li><a href="#">글 제목</a></li>
                 <li><a href="#">글 제목</a></li>

@@ -1,10 +1,12 @@
 import "./PrevNext.css";
 
-export default function PrevNext(){
+export default function PrevNext(str){
+    const btnClassName = str;
+
     return(
-        <span>
-            <button id="prev"></button>
-            <button id="next"></button>
+        <span id="prev-next" className={btnClassName}>
+            <input id="prev" type="button" value=""/>
+            <input id="next" type="button" value=""/>
         </span>
     );
 }

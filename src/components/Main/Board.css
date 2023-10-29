@@ -1,2 +1,12 @@
-main #board {}
-main #board img {}
+#board {}
+#board img {
+    margin-bottom: 7px; margin-left: 3px;
+}
+#board table {
+    width: 586px;
+    background: url("/public/img/main/board/background.png") no-repeat;
+}
+#board table tr {
+    height: 120px;
+}
+#board table tr td {}

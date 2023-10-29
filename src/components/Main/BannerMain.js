@@ -1,12 +1,12 @@
 import "./BannerMain.css";
-import SwitchShow from "./SwitchShow";
 import PrevNext from "./PrevNext";
 
 export default function BannerMain() {
     return(
-        <div id="banner-main">
-            <SwitchShow />
-            <PrevNext />
+        <div id="banner-main" className="margin-bottom">
+            <span id="banner-btn">
+                <PrevNext />
+            </span>
         </div>
     );
 }
