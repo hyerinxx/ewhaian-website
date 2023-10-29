@@ -1,11 +1,15 @@
 import "./SideRight.css";
 import Preview_two from "./Preview_two";
+import useFetch from "../../hooks/useFetch.js";
 
 export default function SideRight() {
+    const dataNotice = useFetch("../../data/Notice.json");
+    const dataEvent = useFetch("../../data/Event.json");
+
     return(
         <aside id="side-right">
-            <Preview_two title="NOTICE" image="/img/side-right/title-NOTICE.gif" data="#"/>
-            <Preview_two title="EVENT" image="/img/side-right/title-EVENT.gif" data="#"/>
+            <Preview_two title="NOTICE" image="/img/side-right/title-NOTICE.gif" data={dataNotice}/>
+            <Preview_two title="EVENT" image="/img/side-right/title-EVENT.gif" data={dataEvent}/>
             <div id="banner-sub">
                 <a href="http://www.ewhaian.com/Ewha_Notice/Notice_View.asp?n_idx=188">
                     <img src="/img/side-right/1_certify.png" alt="이화인 인증"></img>

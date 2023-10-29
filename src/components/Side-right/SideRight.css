@@ -1,4 +1,11 @@
-#side-right {}
-#side-right #banner-sub {}
+#side-right {
+    width: 200px;
+    padding-right: 10px;
+}
+#side-right #banner-sub {
+    text-align: center;
+}
 #side-right #banner-sub a {}
-#side-right #banner-sub a img{}
+#side-right #banner-sub a img {
+    margin-bottom: 10px;
+}

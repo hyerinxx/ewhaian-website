@@ -1,1 +1,15 @@
-#side-right .Preview_two {}
+.Preview_two {
+    margin-bottom: 25px;
+}
+.Preview_two a img {
+    margin-bottom: 10px;
+}
+.Preview_two ul {
+}
+.Preview_two ul li {
+    list-style: inside;
+    margin-bottom: 7px;
+}
+.Preview_two ul li a {
+    font-size: small;
+}

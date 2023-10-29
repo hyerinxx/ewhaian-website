@@ -24,6 +24,8 @@
     width: 80px;
     margin-right: 5px;
     border: 1px solid gainsboro;
+    font-size: small;
+    padding: 2px;
 }
 #login #login-form ul li input[name=user-id] {}
 #login #login-form ul li input[name=remember-id] {}
